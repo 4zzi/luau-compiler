@@ -5,4 +5,4 @@ uses luau::compile and bytecode::sign_bytecode then creates a file called Compil
 luaucompiler.exe script.lua
 
 # how to build
-run build_solution.bat then go to build x64 output
+run build_solution.bat then go to build x64 release output
