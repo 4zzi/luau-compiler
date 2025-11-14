@@ -24,7 +24,7 @@ bool CopyToClipboard(const std::string& text) {
 }
 
 int main(int argc, char* argv[]) {
-    if (argc < 2) {
+    if (argc < 2 || strlen(argv[1]) == 0) {
         std::cout << "[*] LuaUCompiler.exe requires a Lua script as argument.\n";
         std::cout << "[*] Usage: LuaUCompiler.exe <script file>\n";
         std::cout << "[*] Press any key to exit...\n";
